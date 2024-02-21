@@ -8,7 +8,7 @@ function myFunct(){
     const umur = prompt("Masukkan Umur Anda");
     if (umur >= 13){
         alert(`Selamat datang ${nama}!`);
-        const studio = prompt("Pilih studio yang akan dituju (A, B, C)");
+        const studio = prompt("Pilih studio yang akan dituju (A, B, C)").toUpperCase();
         if (studio == "A"){
             alert(`Tiket ${nama}, Studio A, Umur ${umur}`)
         } 
